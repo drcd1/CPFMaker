@@ -46,9 +46,6 @@ sf::Color color_from_hsv(float h,float s,float v){
     float m = v-c;
 
     sf::Color col((r_p+m)*255, (g_p+m)*255, (b_p+m)*255);
-
-    std::cout<<"("<<h<<", "<<s<<", "<<v<<") --> ("<<(r_p+m)*255<<", "<<(g_p+m)*255<<", "<<(b_p+m)*255<<")"<<std::endl;
-    std::cout<<"OR ("<<h<<", "<<s<<", "<<v<<") --> ("<<col.r<<", "<<col.g<<", "<<col.b<<")"<<std::endl;
     return col;
 }
 
@@ -123,7 +120,7 @@ public:
                 if (_squares.at(i + j*_width).filled){
                     sq.setFillColor(sf::Color(200, 200, 200));
                 } else {
-                    sq.setFillColor(sf::Color(10, 10, 10));
+                    sq.setFillColor(sf::Color(30, 30, 30));
                 }
 
                 sq.setPosition((i+_offset_x)*_scale,(j+_offset_y)*_scale);
