@@ -2,7 +2,9 @@
 A small SFML app created to make Cooperative Path-finding Problems
 ## Dependencies
 SFML
+
 C++
+
 ## How to use
 - Paint squares to make them valid positions for the agents.
 - Add agents, select them and add the corresponding goal.
