@@ -10,12 +10,19 @@ C++
 
 ### List of Controls
 LMB - Paint squares
+
 LMB+Ctrl - Unpaint Squares
+
 LMB+A - Add agent
+
 LMB+S - Select agent
+
 LMB+G - Add goal
+
 U - Save the problem.
+
 RMB - Move the camera
+
 RMB+LShift - Zoom
 
 
